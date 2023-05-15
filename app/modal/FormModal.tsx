@@ -54,7 +54,7 @@ export default function FormModal() {
       </button>
       <Dialog onClose={handleClose} open={openDialog}>
         <DialogTitle>
-          Let's Connect
+          Let&apos;s Connect
           <IconButton
             style={{ position: "absolute", top: "0", right: "0" }}
             onClick={handleClose}

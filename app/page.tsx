@@ -41,7 +41,7 @@ export default function Home() {
               <h2 className="text-4xl text-teal-600 font-bold">Robert Molnar</h2>
               <h3 className="text-2xl py-2">Developer</h3>
               <p className="text-md py-5 leading-8">
-                Welcome to my portfolio! I am a seasoned web developer with a rich tapestry of experience spanning over a decade. I specialize in front-end development, armed with proficiency in JavaScript, HTML, CSS/LESS/SASS, among other technologies. My portfolio spans roles in enterprise resource planning system development, design engineering, and even mentoring budding developers, showcasing my ability to adapt and excel in varied environments. Dive in to explore my journey and the diverse projects I've had the privilege of working on.
+                Welcome to my portfolio! I am a seasoned web developer with a rich tapestry of experience spanning over a decade. I specialize in front-end development, armed with proficiency in JavaScript, HTML, CSS/LESS/SASS, among other technologies. My portfolio spans roles in enterprise resource planning system development, design engineering, and even mentoring budding developers, showcasing my ability to adapt and excel in varied environments. Dive in to explore my journey and the diverse projects I&apos;ve had the privilege of working on.
               </p>
             </div>
             <SocialBar />
@@ -54,7 +54,7 @@ export default function Home() {
             <div className="text-center max-w-xl mx-auto">
               <h3 className="text-3xl py-5">Tech</h3>
               <p className="text-md py-5 leading-8">
-                In the realm of technologies, my toolkit is robust and ever-evolving. I command a deep understanding of JavaScript, HTML, and CSS, including LESS and SASS preprocessors. With a strong foundation in Node.js, I effortlessly juggle server-side scripting, and my expertise in Handlebars allows me to build semantic templates effectively. My proficiency in utilizing REST APIs, Web Services, and Ajax ensures seamless data flow in my applications. Not to mention, my abilities with version control systems like Git/GitHub, and my experience in Python and JQuery, help me deliver well-rounded, efficient solutions. While my journey has had a strong focus on front-end technologies, I'm also familiar with C#, .NET, MySQL, knockout.js, AngularJS, and React, showing my versatility as a developer. Please delve deeper to learn about how I've applied these technologies in my projects.
+                In the realm of technologies, my toolkit is robust and ever-evolving. I command a deep understanding of JavaScript, HTML, and CSS, including LESS and SASS preprocessors. With a strong foundation in Node.js, I effortlessly juggle server-side scripting, and my expertise in Handlebars allows me to build semantic templates effectively. My proficiency in utilizing REST APIs, Web Services, and Ajax ensures seamless data flow in my applications. Not to mention, my abilities with version control systems like Git/GitHub, and my experience in Python and JQuery, help me deliver well-rounded, efficient solutions. While my journey has had a strong focus on front-end technologies, I&apos;m also familiar with C#, .NET, MySQL, knockout.js, AngularJS, and React, showing my versatility as a developer. Please delve deeper to learn about how I&apos;ve applied these technologies in my projects.
               </p>
             </div>
             <div id="tech" className="flex flex-wrap justify-center gap-4 text-4xl max-w-3xl  mx-auto mt-5">
