@@ -34,7 +34,7 @@ export default function Home() {
                   <BsFillMoonFill className="dark:hidden" />
                   <BsFillSunFill className="hidden dark:block" />
                 </li>
-                <li><a className="bg-teal-500 text-white py-2 px-5 rounded-md ml-8" href="#"><HiDownload style={{display: "inline-block", marginRight: "0.25rem"}}/>Resume</a></li>
+                <li><a className="bg-teal-500 text-white py-2 px-5 rounded-md ml-8" href="https://raw.githubusercontent.com/DevRob/nextjs/main/public/Resume.pdf"><HiDownload style={{display: "inline-block", marginRight: "0.25rem"}}/>Resume</a></li>
               </ul>
             </nav>
             <div className="text-center max-w-3xl mx-auto">
