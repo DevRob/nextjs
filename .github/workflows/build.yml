@@ -31,6 +31,5 @@ jobs:
         # https://github.com/JamesIves/github-pages-deploy-action
         uses: JamesIves/github-pages-deploy-action@v4 
         with:
-          base_branch: develop # The branch the action should deploy from
           branch: gh-pages
           folder: out
