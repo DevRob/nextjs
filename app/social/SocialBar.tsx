@@ -13,7 +13,7 @@ export function SocialBar() {
 
 function Linkedin() {
   return (
-    <AiFillLinkedin />
+    <a href="https://www.linkedin.com/in/r0bertm0lnar/" target="_blank" aria-label="Linkedin Profile"><AiFillLinkedin /></a>
   )
 }
 
@@ -25,6 +25,6 @@ function Mailto() {
 
 function Github() {
   return (
-    <AiFillGithub />
+    <a href="https://github.com/DevRob" target="_blank" aria-label="Github Profile"><AiFillGithub /></a>
   )
 }
