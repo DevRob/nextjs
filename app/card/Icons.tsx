@@ -6,9 +6,6 @@ import Asteroid from '../../public/svg/spaceship.svg'
 import Email from '../../public/svg/email.svg'
 
 type Icons = 'map' | 'game' | 'ttt' | 'transform' | 'spaceship' | 'email' // all the supported icons
-type IconProps = {
-  color: string
-}
 
 const getIconFromName = (iconName: Icons) => {
   switch (iconName) {
