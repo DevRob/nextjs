@@ -19,6 +19,7 @@ import { SiHandlebarsdotjs } from 'react-icons/si'
 import { HiDownload } from 'react-icons/hi'
 import { FaRegCopyright } from 'react-icons/fa'
 import { BsArrowRight } from 'react-icons/bs'
+import { SiTailwindcss } from 'react-icons/si'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -34,14 +35,14 @@ export default function Home() {
                   <BsFillMoonFill className="dark:hidden" />
                   <BsFillSunFill className="hidden dark:block" />
                 </li>
-                <li><a className="bg-teal-500 text-white py-2 px-5 rounded-md ml-8" href="https://raw.githubusercontent.com/DevRob/nextjs/main/public/Resume.pdf"><HiDownload style={{display: "inline-block", marginRight: "0.25rem"}}/>Resume</a></li>
+                <li><a className="bg-teal-500 text-white py-2 px-5 rounded-md ml-8" href="https://raw.githubusercontent.com/DevRob/nextjs/main/public/Resume.pdf" aria-label="Resume (PDF)"><HiDownload style={{display: "inline-block", marginRight: "0.25rem"}}/>Resume</a></li>
               </ul>
             </nav>
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-4xl text-teal-600 font-bold">Robert Molnar</h2>
               <h3 className="text-2xl py-2">Developer</h3>
               <p className="text-md py-5 leading-8">
-                Welcome to my portfolio! I am a seasoned web developer with a rich tapestry of experience spanning over a decade. I specialize in front-end development, armed with proficiency in JavaScript, HTML, CSS/LESS/SASS, among other technologies. My portfolio spans roles in enterprise resource planning system development, design engineering, and even mentoring budding developers, showcasing my ability to adapt and excel in varied environments. Dive in to explore my journey and the diverse projects I&apos;ve had the privilege of working on.
+              <span className="text-teal-500">Welcome to my portfolio! </span>As a seasoned web developer with over a decade of hands-on experience, I've honed my skills across a diverse range of projects and roles. My specialty lies in<span className="text-teal-500"> front-end development</span>, where I consistently deliver efficient and user-friendly solutions. My professional journey reflects my versatility, from developing intricate enterprise systems to guiding aspiring developers and contributing to design engineering projects. Take a moment to explore my varied experiences and the multitude of projects that have shaped my career.
               </p>
             </div>
             <SocialBar />
@@ -54,8 +55,8 @@ export default function Home() {
             <div className="text-center max-w-xl mx-auto">
               <h3 className="text-3xl py-5">Tech</h3>
               <p className="text-md py-5 leading-8">
-                In the realm of technologies, my toolkit is robust and ever-evolving. I command a deep understanding of JavaScript, HTML, and CSS, including LESS and SASS preprocessors. With a strong foundation in Node.js, I effortlessly juggle server-side scripting, and my expertise in Handlebars allows me to build semantic templates effectively. My proficiency in utilizing REST APIs, Web Services, and Ajax ensures seamless data flow in my applications. Not to mention, my abilities with version control systems like Git/GitHub, and my experience in Python and JQuery, help me deliver well-rounded, efficient solutions. While my journey has had a strong focus on front-end technologies, I&apos;m also familiar with C#, .NET, MySQL, knockout.js, AngularJS, and React, showing my versatility as a developer. Please delve deeper to learn about how I&apos;ve applied these technologies in my projects.
-              </p>
+                In the realm of web technology, my toolkit is robust and ever-evolving. I command a deep understanding of<span className="text-teal-500"> JavaScript, HTML, </span>and<span className="text-teal-500"> CSS</span>, including LESS and SASS preprocessors. A strong foundation in<span className="text-teal-500"> Node.js</span> and my expertise in<span className="text-teal-500"> Handlebars </span>allow me to build semantic templates effectively. 
+                Few other technologies I worked with: <span className="text-teal-500"> REST APIs, Web Services, Git/GitHub, Python, JQuery, C#, .NET, MySQL, knockout.js, TypeScript and React.</span></p>
             </div>
             <div id="tech" className="flex flex-wrap justify-center gap-4 text-4xl max-w-3xl  mx-auto mt-5">
               <SiHtml5 />
@@ -63,6 +64,7 @@ export default function Home() {
               <SiJavascript />
               <SiHandlebarsdotjs />
               <FaLess />
+              <SiTailwindcss />
               <SiTypescript />
               <SiReact />
               <TbBrandNextjs />
@@ -73,76 +75,83 @@ export default function Home() {
             <div className="text-center max-w-xl mx-auto">
               <h3 className="text-3xl py-5">Projects</h3>
               <p className="text-md py-5 leading-8">
-                The Projects section of my portfolio presents a diverse<span className="text-teal-500">  collection of</span> initiatives that highlight 
-                the depth and breadth of my<span className="text-teal-500"> professional expertise</span>. Through these ventures, 
-                I bring to light my capacity to deliver innovative solutions, tackle complex challenges, and push the boundaries of traditional web development.
+                The Projects section of my portfolio showcases a varied collection of initiatives, each underscoring the depth of my professional expertise.
+                These projects demonstrate my<span className="text-teal-500"> ability to deliver creative solutions</span>, navigate complex challenges, and consistently advance within the field of web development.
               </p>
             </div>
 
-            <div className="flex flex-wrap flex-col items-center justify-center md:flex-row gap-10 mt-5 max-w-3xl mx-auto">
+            <div className="flex flex-wrap flex-col items-center justify-center md:flex-row gap-16 mt-5 max-w-3xl mx-auto">
               <CardModal
                 title="CSS 3D Transform"
-                description="Experimenting with 3D UI design. I did not find the benefit to filling out a swiveling web form, but it's fun to experiment with and a good coding challange."
+                description="Engaging in exploratory work with 3D User Interface design has been an intriguing endeavor.
+                  While the practical application of a rotating web form may not be readily apparent,
+                  the experimental process offered both amusement and a valuable coding challenge."
                 url="http://devrob.github.io/3D-transforms/"
                 srcUrl="https://github.com/DevRob/3D-transforms"
                 svg="transform"
+                media="transform"
               />
               <CardModal
                 title="Automated Email Feature for ERP System"
-                description="Rework the old system so fellow developers can easily set up  different types of automated email and text 
-                  messages such as order confirmation, notification about stock level or scheduled dispatch, periodic 
-                  reports, special offers for customers."
+                description="I revamped the existing system to enable my colleagues to effortlessly establish various forms of automated communications.
+                  These include email and text messages for order confirmations, stock level alerts, scheduled dispatch notifications, periodic reports,
+                  and customer special offers."
                 url=""
                 srcUrl=""
                 svg="email"
+                media="email"
               />
               <CardModal
                 title="Neighborhood Map"
-                description="Develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit.
-                  Additional functionality to this application, including: map markers to identify popular locations or places you’d 
-                  like to visit, a search function to easily discover these locations, and a listview to support simple browsing of 
-                  all locations. Implement third-party APIs that provide additional information about each of these locations 
-                  (such as StreetView images, Wikipedia articles, Yelp reviews, etc)."
+                description="I developed a single-page application that showcases a customizable map of any chosen neighborhood.
+                  This feature-rich application includes map markers for highlighting points of interest, a search function for location discovery,
+                  and a list view for simple browsing. Additionally, I've integrated third-party APIs to offer supplementary information about each location,
+                  such as StreetView images, Wikipedia articles, and 4Square reviews"
                 url="http://devrob.github.io/Places-APP"
                 srcUrl="https://github.com/DevRob/Places-APP"
                 svg="map"
+                media="map"
               />
               <CardModal
                 title="Unbeatable Tic-Tac-Toe"
-                description="In this project I built a Tic-Tac-Toe game, that has an unbeatable A.I. player. 
-                  The goal was to use Minimax Algorithm for decision making, so it's going to pick the best moves. 
-                  The algorithm calculate all the possible moves available for the computer player and
-                  use some metric to determine the best possible move. I used Jasmin.js and Test Driven Development technique for this project."
+                description="For this project, I created a Tic-Tac-Toe game featuring an AI opponent that simply cannot be beaten.
+                  The AI makes use of the Minimax Algorithm to determine its moves, ensuring the most optimal choice is always made.
+                  This algorithm considers all possible moves for the AI player and selects the most advantageous one based on certain metrics.
+                  To ensure the project's robustness and effectiveness, I employed the Test Driven Development technique using Jasmine.js."
                 url="http://devrob.github.io/TDD-Project-TTT"
                 srcUrl="https://github.com/DevRob/TDD-Project-TTT"
                 svg="ttt"
+                media="tictactoe"
               />
               <CardModal
                 title="Classic Arcade Game Clone"
-                description="I've been provided visual assets and a game loop engine; using these tools 
-                  I added a number of entities to the game including the player characters and enemies to 
-                  recreate the classic arcade game Frogger. Further more I implemented a map generator to 
-                  able to easily add/remove/modify levels for the game."
+                description="Utilizing given visual assets and a game loop engine, I introduced numerous game entities,
+                  including player characters and adversaries, effectively reconstructing the iconic arcade game, Frogger.
+                  To increase the game's versatility, I also designed a map generator, which allows for straightforward addition,
+                  removal, and modification of game levels."
                 url="http://devrob.github.io/Udacity-WebDev-project3"
                 srcUrl="https://github.com/DevRob/Udacity-WebDev-project3"
                 svg="game"
+                media="frogger"
               />
               <CardModal
                 title="Asteroids Game Clone"
-                description="Implement a version of Asteroind computer game in Python. Spawn a ship and a set of asteroids, 
-                  detect collisions between the ship and a rocks. Upon a collision, the rock should be destroyed and 
-                  the player should lose a life. Spawn new missiles when firing using the space bar and destroy the 
-                  rocks when they are hit by a missile checking collisions between two groups. Implement a scoring system."
-                url="https://py3.codeskulptor.org/#user308_ydj6LNsNpv_11.py"
-                srcUrl="https://py3.codeskulptor.org/#user308_ydj6LNsNpv_11.py"
+                description="In this project, I created a Python-based rendition of the classic Asteroids computer game.
+                  The gameplay involves generating a spaceship and a field of asteroids, and tracking collisions between the ship and the asteroids.
+                  With each collision, an asteroid is eliminated, and the player forfeits a life. The space bar triggers the launch of new missiles,
+                  which can obliterate asteroids upon contact, a feature ensured by collision detection between the two elements.
+                  The game also includes a scoring system to track player progress."
+                url="https://py3.codeskulptor.org/#user308_ydj6LNsNpv_12.py"
+                srcUrl="https://py3.codeskulptor.org/#user308_ydj6LNsNpv_12.py"
                 svg="spaceship"
+                media="asteroid"
               />
             </div>
           </section>
           <footer>
             <ul className="p-3 border-t flex justify-between text-gray-400">
               <li className="p-2 flex items-center gap-3"><FaRegCopyright /> 2023</li>
-              <li className="p-2"><a className="flex items-center gap-3" href="#">Check this Page on GitHub <BsArrowRight/></a></li>
+              <li className="p-2"><a className="flex items-center gap-3" href="https://github.com/DevRob/nextjs" aria-label="Link to GitHub Repository">Check this Page on GitHub <BsArrowRight/></a></li>
             </ul>
           </footer>
         </main>
