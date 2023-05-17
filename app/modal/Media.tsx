@@ -4,7 +4,7 @@ import transform from '../../public/png/transform.png'
 import email from '../../public/png/email.png'
 import map from '../../public/png/Google-App.png'
 import tictactoe from '../../public/png/ttt.png'
-import frogger from '../../public/png/Frogger.png'
+import frogger from '../../public/png/frogger.png'
 import asteroid from '../../public/png/asteroid.png'
 
 type Images = 'transform' | 'email' | 'map' | 'tictactoe' | 'frogger' | 'asteroid' // all the supported Images
