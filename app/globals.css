@@ -119,14 +119,27 @@ a[data-disabled='true'] {
   perspective: 400px;
 }
 
+.dark .carousel-dark .carousel-control-prev-icon,
+.dark .carousel-dark .carousel-control-next-icon {
+  filter: none;
+}
+
+.dark .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: white;
+}
+
 @media only screen and (max-width: 768px) {
   .carousel {
     width: 100vw !important;
-    margin-left: -50px;
+    margin-left: -24px;
     padding-bottom: 40px;
   }
 
   .carousel img {
     margin-left: 80px;
+  }
+
+  footer {
+    font-size: 11px;
   }
 }
