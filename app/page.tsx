@@ -155,7 +155,7 @@ export default function Home() {
             <div className="text-center max-w-xl mx-auto">
               <h3 className="text-3xl py-2">Portfolio</h3>
               <p className="text-md py-2 leading-8">
-              I've had the honor of collaborating with talented teams to construct these websites, where I've made notable contributions to the<span className="text-teal-500"> front-end development</span>, with varying degrees of involvement in each case.
+              I&apos;ve had the honor of collaborating with talented teams to construct these websites, where I&apos;ve made notable contributions to the<span className="text-teal-500"> front-end development</span>, with varying degrees of involvement in each case.
               </p>
             </div>
             <Slider/>
