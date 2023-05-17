@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <div className="Main-wrapper bg-stone-100 dark:bg-stone-900 font-montserrat">
-        <main className="min-h-screen max-w-6xl mx-auto text-gray-800 dark:text-gray-400 bg-stone-50 dark:bg-stone-800 px-5 py-10 lg:px-10">
+        <main className="min-h-screen max-w-6xl mx-auto text-gray-800 dark:text-gray-400 bg-stone-50 dark:bg-stone-800 px-4 py-10 lg:px-10">
           <section>
             <nav className="py-2 mb-12 flex justify-between">
               <h1 className="text-xl font-semibold">Devrob</h1>
@@ -36,7 +36,7 @@ export default function Home() {
                   <BsFillMoonFill className="dark:hidden" />
                   <BsFillSunFill className="hidden dark:block" />
                 </li>
-                <li><a className="bg-teal-500 text-white py-2 px-5 rounded-md ml-8" href="https://raw.githubusercontent.com/DevRob/nextjs/main/public/Resume.pdf" aria-label="Resume (PDF)"><HiDownload style={{display: "inline-block", marginRight: "0.25rem"}}/>Resume</a></li>
+                <li><a className="bg-teal-500 text-white py-2 px-3 rounded-md ml-8" href="https://raw.githubusercontent.com/DevRob/nextjs/main/public/Resume.pdf" aria-label="Resume (PDF)"><HiDownload style={{display: "inline-block", marginRight: "0.25rem"}}/>Resume</a></li>
               </ul>
             </nav>
             <div className="text-center max-w-3xl mx-auto">
@@ -47,7 +47,7 @@ export default function Home() {
               </p>
             </div>
             <SocialBar />
-            <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-5 mx-auto overflow-hidden">
+            <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mt-5 mx-auto overflow-hidden">
               <Image alt="Robert" src={devrob} fill style={{ objectFit: "cover" }} />
             </div>
           </section>
