@@ -42,7 +42,7 @@ export default function Home() {
               <h2 className="text-4xl text-teal-600 font-bold">Robert Molnar</h2>
               <h3 className="text-2xl py-2">Developer</h3>
               <p className="text-md py-5 leading-8">
-              <span className="text-teal-500">Welcome to my portfolio! </span>As a seasoned web developer with over a decade of hands-on experience, I've honed my skills across a diverse range of projects and roles. My specialty lies in<span className="text-teal-500"> front-end development</span>, where I consistently deliver efficient and user-friendly solutions. My professional journey reflects my versatility, from developing intricate enterprise systems to guiding aspiring developers and contributing to design engineering projects. Take a moment to explore my varied experiences and the multitude of projects that have shaped my career.
+              <span className="text-teal-500">Welcome to my portfolio! </span>As a seasoned web developer with over a decade of hands-on experience, I&apos;ve honed my skills across a diverse range of projects and roles. My specialty lies in<span className="text-teal-500"> front-end development</span>, where I consistently deliver efficient and user-friendly solutions. My professional journey reflects my versatility, from developing intricate enterprise systems to guiding aspiring developers and contributing to design engineering projects. Take a moment to explore my varied experiences and the multitude of projects that have shaped my career.
               </p>
             </div>
             <SocialBar />
