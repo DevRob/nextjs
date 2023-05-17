@@ -2,6 +2,7 @@
 // import Head from 'next/head'
 import { SocialBar } from './social/SocialBar'
 import CardModal from './modal/CardModal'
+import Slider from './carousel/Slider'
 import Image from 'next/image'
 import devrob from '../public/png/devrob.png'
 import { useState } from 'react'
@@ -26,7 +27,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <div className="Main-wrapper bg-stone-100 dark:bg-stone-900 font-montserrat">
-        <main className="min-h-screen max-w-6xl mx-auto text-gray-800 dark:text-gray-400 bg-white dark:bg-stone-800 px-5 py-10 lg:px-10">
+        <main className="min-h-screen max-w-6xl mx-auto text-gray-800 dark:text-gray-400 bg-stone-50 dark:bg-stone-800 px-5 py-10 lg:px-10">
           <section>
             <nav className="py-2 mb-12 flex justify-between">
               <h1 className="text-xl font-semibold">Devrob</h1>
@@ -41,7 +42,7 @@ export default function Home() {
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-4xl text-teal-600 font-bold">Robert Molnar</h2>
               <h3 className="text-2xl py-2">Developer</h3>
-              <p className="text-md py-5 leading-8">
+              <p className="text-md py-2 leading-8">
               <span className="text-teal-500">Welcome to my portfolio! </span>As a seasoned web developer with over a decade of hands-on experience, I&apos;ve honed my skills across a diverse range of projects and roles. My specialty lies in<span className="text-teal-500"> front-end development</span>, where I consistently deliver efficient and user-friendly solutions. My professional journey reflects my versatility, from developing intricate enterprise systems to guiding aspiring developers and contributing to design engineering projects. Take a moment to explore my varied experiences and the multitude of projects that have shaped my career.
               </p>
             </div>
@@ -53,10 +54,11 @@ export default function Home() {
 
           <section>
             <div className="text-center max-w-xl mx-auto">
-              <h3 className="text-3xl py-5">Tech</h3>
-              <p className="text-md py-5 leading-8">
+              <h3 className="text-3xl py-2">Tech</h3>
+              <p className="text-md py-2 leading-8">
                 In the realm of web technology, my toolkit is robust and ever-evolving. I command a deep understanding of<span className="text-teal-500"> JavaScript, HTML, </span>and<span className="text-teal-500"> CSS</span>, including LESS and SASS preprocessors. A strong foundation in<span className="text-teal-500"> Node.js</span> and my expertise in<span className="text-teal-500"> Handlebars </span>allow me to build semantic templates effectively. 
-                Few other technologies I worked with: <span className="text-teal-500"> REST APIs, Web Services, Git/GitHub, Python, JQuery, C#, .NET, MySQL, knockout.js, TypeScript and React.</span></p>
+                Few other technologies I worked with: <span className="text-teal-500"> REST APIs, Web Services, Git/GitHub, Python, JQuery, C#, .NET, MySQL, knockout.js, TypeScript and React.</span>
+              </p>
             </div>
             <div id="tech" className="flex flex-wrap justify-center gap-4 text-4xl max-w-3xl  mx-auto mt-5">
               <SiHtml5 />
@@ -73,8 +75,8 @@ export default function Home() {
           
           <section>
             <div className="text-center max-w-xl mx-auto">
-              <h3 className="text-3xl py-5">Projects</h3>
-              <p className="text-md py-5 leading-8">
+              <h3 className="text-3xl py-2">Projects</h3>
+              <p className="text-md py-2 leading-8">
                 The Projects section of my portfolio showcases a varied collection of initiatives, each underscoring the depth of my professional expertise.
                 These projects demonstrate my<span className="text-teal-500"> ability to deliver creative solutions</span>, navigate complex challenges, and consistently advance within the field of web development.
               </p>
@@ -148,10 +150,20 @@ export default function Home() {
               />
             </div>
           </section>
+
+          <section>
+            <div className="text-center max-w-xl mx-auto">
+              <h3 className="text-3xl py-2">Portfolio</h3>
+              <p className="text-md py-2 leading-8">
+              I've had the honor of collaborating with talented teams to construct these websites, where I've made notable contributions to the<span className="text-teal-500"> front-end development</span>, with varying degrees of involvement in each case.
+              </p>
+            </div>
+            <Slider/>
+          </section>
           <footer>
             <ul className="p-3 border-t flex justify-between text-gray-400">
-              <li className="p-2 flex items-center gap-3"><FaRegCopyright /> 2023</li>
-              <li className="p-2"><a className="flex items-center gap-3" href="https://github.com/DevRob/nextjs" aria-label="Link to GitHub Repository">Check this Page on GitHub <BsArrowRight/></a></li>
+              <li className="p-3 flex items-center gap-3"><FaRegCopyright /> 2023</li>
+              <li className="p-3"><a className="flex items-center gap-3" href="https://github.com/DevRob/nextjs" aria-label="Link to GitHub Repository">Check this Page on GitHub <BsArrowRight/></a></li>
             </ul>
           </footer>
         </main>

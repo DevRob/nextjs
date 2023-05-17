@@ -30,6 +30,11 @@ main {
   position: relative;
 }
 
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 .Main-wrapper {
   position: relative;
 }
@@ -100,4 +105,16 @@ a[data-disabled='true'] {
   border-color: lightgray;
   background-color: lightgray;
   pointer-events: none;
+}
+
+.carousel img {
+  transform: rotate3d(0.5, 2.5, -0.5, -9deg) scale(0.7) translateX(-130px);
+  margin: 0 60px;
+  perspective: 60px;
+  box-shadow: 10px 9px 9px 3px #0000006e;
+}
+
+.carousel-link {
+  display: block;
+  perspective: 400px;
 }
