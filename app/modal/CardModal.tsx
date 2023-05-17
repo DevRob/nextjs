@@ -44,15 +44,15 @@ export default function CardModal(props: Props) {
             <IoMdClose />
           </IconButton>
         </DialogTitle>
-        <div className="p-5">
+        <div className="p-3">
           <div className="relative rounded-md w-80 h-60 mx-auto overflow-hidden">
             <Media imageName={media}></Media>
           </div>
-          <div className="p-5">
-            <p className="">{description}</p>
+          <div className="p-3">
+            <p className="leading-8">{description}</p>
           </div>
         </div>
-        <div className="flex justify-end p-5">
+        <div className="flex justify-end p-3">
           <a
             href={url}
             data-disabled={!url}

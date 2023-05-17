@@ -3,7 +3,7 @@ import FormModal from '../modal/FormModal'
 
 export function SocialBar() {
   return (
-    <div className="text-5xl flex justify-center gap-16 py-5">
+    <div className="text-5xl flex justify-center gap-16 py-2">
       <Mailto />
       <Github />
       <Linkedin />

@@ -84,7 +84,7 @@ export default function FormModal() {
           handleDisplay(false)
          }}
        >
-        <Form className="p-5 flex flex-col gap-3">
+        <Form className="p-3 flex flex-col gap-3">
           <label htmlFor="firstName">First Name</label>
           <Field id="firstName" className="py-3 px-2 border border-gray-300 rounded-md min-w-full focus:ring-teal-500" name="firstName" placeholder="First Name" />
 
