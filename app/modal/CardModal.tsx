@@ -6,6 +6,7 @@ import { Card } from '../card/Card'
 import IconButton from "@mui/material/IconButton"
 import { IoMdClose } from 'react-icons/io'
 import { BiLinkExternal } from  'react-icons/bi'
+import { Media } from './Media'
 
 interface Props {
   title: string,
@@ -13,10 +14,11 @@ interface Props {
   url: string,
   srcUrl: string,
   svg: any,
+  media: any,
 }
 
 export default function CardModal(props: Props) {
-  const { title, description, url, srcUrl, svg} = props
+  const { title, description, url, srcUrl, svg, media} = props
   const [openDialog, handleDisplay] = useState(false)
 
   const handleClose = () => {
@@ -29,8 +31,8 @@ export default function CardModal(props: Props) {
 
   return (
     <>
-      <button onClick={openDialogBox}>
-        <Card title={title} description={description} url={url} srcUrl={srcUrl} svg={svg} />
+      <button className="scale-75" onClick={openDialogBox} aria-label={title}>
+        <Card svg={svg} />
       </button>
       <Dialog onClose={handleClose} open={openDialog}>
         <DialogTitle>
@@ -43,7 +45,12 @@ export default function CardModal(props: Props) {
           </IconButton>
         </DialogTitle>
         <div className="p-5">
-          <p className="">{description}</p>
+          <div className="relative rounded-md w-80 h-60 mx-auto overflow-hidden">
+            <Media imageName={media}></Media>
+          </div>
+          <div className="p-5">
+            <p className="">{description}</p>
+          </div>
         </div>
         <div className="flex justify-end p-5">
           <a

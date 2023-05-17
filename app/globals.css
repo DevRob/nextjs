@@ -84,9 +84,7 @@ section {
 }
 
 #tech svg:nth-of-type(8) {
-  color: #fff;
-  background: #1c1917;
-  border-radius: 50%;
+  color: #3178c6;
 }
 
 .dark #tech svg:nth-of-type(8) {

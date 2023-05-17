@@ -49,7 +49,7 @@ export default function FormModal() {
   }
   return (
     <>
-      <button onClick={openDialogBox}>
+      <button onClick={openDialogBox} aria-label="email">
         <MdEmail/>
       </button>
       <Dialog onClose={handleClose} open={openDialog}>
