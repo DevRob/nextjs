@@ -31,7 +31,7 @@ export default function CardModal(props: Props) {
 
   return (
     <>
-      <button onClick={openDialogBox} aria-label={title}>
+      <button className="scale-75" onClick={openDialogBox} aria-label={title}>
         <Card svg={svg} />
       </button>
       <Dialog onClose={handleClose} open={openDialog}>

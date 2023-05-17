@@ -80,7 +80,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex flex-wrap flex-col items-center justify-center md:flex-row gap-16 mt-5 max-w-3xl mx-auto">
+            <div className="flex flex-wrap flex-col items-center justify-center md:flex-row gap-10 mt-5 max-w-3xl mx-auto">
               <CardModal
                 title="CSS 3D Transform"
                 description="Engaging in exploratory work with 3D User Interface design has been an intriguing endeavor.
@@ -92,12 +92,12 @@ export default function Home() {
                 media="transform"
               />
               <CardModal
-                title="Automated Email Feature for ERP System"
+                title="Automated email & sms Feature for ERP System"
                 description="I revamped the existing system to enable my colleagues to effortlessly establish various forms of automated communications.
                   These include email and text messages for order confirmations, stock level alerts, scheduled dispatch notifications, periodic reports,
                   and customer special offers."
                 url=""
-                srcUrl=""
+                srcUrl="https://github.com/DevRob/sms-server"
                 svg="email"
                 media="email"
               />
@@ -105,7 +105,7 @@ export default function Home() {
                 title="Neighborhood Map"
                 description="I developed a single-page application that showcases a customizable map of any chosen neighborhood.
                   This feature-rich application includes map markers for highlighting points of interest, a search function for location discovery,
-                  and a list view for simple browsing. Additionally, I've integrated third-party APIs to offer supplementary information about each location,
+                  and a list view for simple browsing. Additionally, I&apos;ve integrated third-party APIs to offer supplementary information about each location,
                   such as StreetView images, Wikipedia articles, and 4Square reviews"
                 url="http://devrob.github.io/Places-APP"
                 srcUrl="https://github.com/DevRob/Places-APP"
@@ -117,7 +117,7 @@ export default function Home() {
                 description="For this project, I created a Tic-Tac-Toe game featuring an AI opponent that simply cannot be beaten.
                   The AI makes use of the Minimax Algorithm to determine its moves, ensuring the most optimal choice is always made.
                   This algorithm considers all possible moves for the AI player and selects the most advantageous one based on certain metrics.
-                  To ensure the project's robustness and effectiveness, I employed the Test Driven Development technique using Jasmine.js."
+                  To ensure the project&apos;s robustness and effectiveness, I employed the Test Driven Development technique using Jasmine.js."
                 url="http://devrob.github.io/TDD-Project-TTT"
                 srcUrl="https://github.com/DevRob/TDD-Project-TTT"
                 svg="ttt"
@@ -127,7 +127,7 @@ export default function Home() {
                 title="Classic Arcade Game Clone"
                 description="Utilizing given visual assets and a game loop engine, I introduced numerous game entities,
                   including player characters and adversaries, effectively reconstructing the iconic arcade game, Frogger.
-                  To increase the game's versatility, I also designed a map generator, which allows for straightforward addition,
+                  To increase the game&apos;s versatility, I also designed a map generator, which allows for straightforward addition,
                   removal, and modification of game levels."
                 url="http://devrob.github.io/Udacity-WebDev-project3"
                 srcUrl="https://github.com/DevRob/Udacity-WebDev-project3"
