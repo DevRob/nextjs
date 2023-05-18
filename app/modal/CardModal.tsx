@@ -52,18 +52,18 @@ export default function CardModal(props: Props) {
             <p className="leading-8">{description}</p>
           </div>
         </div>
-        <div className="flex justify-end p-3">
+        <div className="flex justify-end p-3 mt-auto">
           <a
             href={url}
             data-disabled={!url}
-            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-5 rounded-md ml-8'>
+            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md ml-8'>
               example
               <BiLinkExternal className="inline-block ml-3"/>
           </a>
           <a
             href={srcUrl}
             data-disabled={!srcUrl}
-            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-5 rounded-md ml-8'>
+            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md ml-8'>
               source code
               <BiLinkExternal className="inline-block ml-3"/>
             </a>
