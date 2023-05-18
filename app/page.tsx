@@ -160,10 +160,10 @@ export default function Home() {
             </div>
             <Slider/>
           </section>
-          <footer>
+          <footer className="text-xs ">
             <ul className="p-3 border-t flex justify-between text-gray-400">
-              <li className="p-3 flex items-center gap-3"><FaRegCopyright /> 2023</li>
-              <li className="p-3"><a className="flex items-center gap-3" href="https://github.com/DevRob/nextjs" aria-label="Link to GitHub Repository">Check this Page on GitHub <BsArrowRight/></a></li>
+              <li className="flex items-center gap-3"><FaRegCopyright /> 2023</li>
+              <li><a className="flex items-center gap-3" href="https://github.com/DevRob/nextjs" aria-label="Link to GitHub Repository">Check this Page on GitHub <BsArrowRight/></a></li>
             </ul>
           </footer>
         </main>

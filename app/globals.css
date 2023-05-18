@@ -138,10 +138,6 @@ a[data-disabled='true'] {
   .carousel img {
     margin-left: 80px;
   }
-
-  footer {
-    font-size: 11px;
-  }
 }
 
 @media only screen and (max-width: 567px) {
@@ -152,8 +148,12 @@ a[data-disabled='true'] {
     margin: 0;
   }
 
-  div.MuiDialog-root button {
+  div.MuiDialog-root button:not(.custom) {
     position: fixed;
     z-index: 1;
+  }
+
+  form {
+    min-width: 100vw;
   }
 }
