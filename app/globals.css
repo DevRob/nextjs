@@ -145,13 +145,13 @@ a[data-disabled='true'] {
 }
 
 @media only screen and (max-width: 567px) {
-  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  .css-uhb5lp {
     max-height: 100vh;
     height: 100vh;
     margin: 0;
   }
 
-  button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  .MuiDialog-root button {
     position: fixed !important;
     z-index: 1;
   }
