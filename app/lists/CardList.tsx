@@ -16,8 +16,8 @@ type Items = {
 export default function CardList(props: Items) {
   return (
     <ul className="p-0 flex flex-wrap flex-col items-center justify-center md:flex-row gap-10 mt-5 max-w-3xl mx-auto">
-      {props.items.map(({title, description, url, srcUrl, svg, media}) => {
-        return <li>
+      {props.items.map(({title, description, url, srcUrl, svg, media}, index) => {
+        return <li key={index.toString()}>
           <CardModal
             title={title}
             description={description}
