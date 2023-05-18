@@ -44,7 +44,7 @@ export default function CardModal(props: Props) {
             <IoMdClose />
           </IconButton>
         </DialogTitle>
-        <div className="p-3">
+        <div className="px-4">
           <div className="relative rounded-md w-80 h-60 mx-auto overflow-hidden">
             <Media imageName={media}></Media>
           </div>
@@ -52,18 +52,18 @@ export default function CardModal(props: Props) {
             <p className="leading-8">{description}</p>
           </div>
         </div>
-        <div className="flex justify-end p-3 mt-auto">
+        <div className="flex justify-center md:justify-end gap-3 p-3 mt-auto">
           <a
             href={url}
             data-disabled={!url}
-            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md ml-8'>
+            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md'>
               example
               <BiLinkExternal className="inline-block ml-3"/>
           </a>
           <a
             href={srcUrl}
             data-disabled={!srcUrl}
-            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md ml-8'>
+            className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md'>
               source code
               <BiLinkExternal className="inline-block ml-3"/>
             </a>

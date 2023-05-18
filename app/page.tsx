@@ -1,26 +1,30 @@
 'use client'
-// import Head from 'next/head'
 import { SocialBar } from './social/SocialBar'
-import CardModal from './modal/CardModal'
 import Slider from './carousel/Slider'
 import Image from 'next/image'
+import CardList from './lists/CardList'
 import devrob from '../public/png/devrob.png'
 import { useState } from 'react'
-import { BsFillMoonFill } from 'react-icons/bs'
-import { BsFillSunFill } from 'react-icons/bs'
 
-import { SiHtml5 } from 'react-icons/si'
-import { SiCss3 } from 'react-icons/si'
-import { FaLess } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
-import { SiTypescript } from 'react-icons/si'
-import { SiReact } from 'react-icons/si'
+import {
+  BsFillMoonFill,
+  BsFillSunFill,
+  BsArrowRight
+} from 'react-icons/bs'
+
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiHandlebarsdotjs,
+  SiTailwindcss } from 'react-icons/si'
+
+import { FaLess, FaRegCopyright } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiHandlebarsdotjs } from 'react-icons/si'
 import { HiDownload } from 'react-icons/hi'
-import { FaRegCopyright } from 'react-icons/fa'
-import { BsArrowRight } from 'react-icons/bs'
-import { SiTailwindcss } from 'react-icons/si'
+import { items } from "../public/CardData.json"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -83,71 +87,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-wrap flex-col items-center justify-center md:flex-row gap-10 mt-5 max-w-3xl mx-auto">
-              <CardModal
-                title="CSS 3D Transform"
-                description="Engaging in exploratory work with 3D User Interface design has been an intriguing endeavor.
-                  While the practical application of a rotating web form may not be readily apparent,
-                  the experimental process offered both amusement and a valuable coding challenge."
-                url="http://devrob.github.io/3D-transforms/"
-                srcUrl="https://github.com/DevRob/3D-transforms"
-                svg="transform"
-                media="transform"
-              />
-              <CardModal
-                title="Automated email & sms Feature for ERP System"
-                description="I revamped the existing system to enable my colleagues to effortlessly establish various forms of automated communications.
-                  These include email and text messages for order confirmations, stock level alerts, scheduled dispatch notifications, periodic reports,
-                  and customer special offers."
-                url=""
-                srcUrl="https://github.com/DevRob/sms-server"
-                svg="email"
-                media="email"
-              />
-              <CardModal
-                title="Neighborhood Map"
-                description="I developed a single-page application that showcases a customizable map of any chosen neighborhood.
-                  This feature-rich application includes map markers for highlighting points of interest, a search function for location discovery,
-                  and a list view for simple browsing. Additionally, I&apos;ve integrated third-party APIs to offer supplementary information about each location,
-                  such as StreetView images, Wikipedia articles, and 4Square reviews"
-                url="http://devrob.github.io/Places-APP"
-                srcUrl="https://github.com/DevRob/Places-APP"
-                svg="map"
-                media="map"
-              />
-              <CardModal
-                title="Unbeatable Tic-Tac-Toe"
-                description="For this project, I created a Tic-Tac-Toe game featuring an AI opponent that simply cannot be beaten.
-                  The AI makes use of the Minimax Algorithm to determine its moves, ensuring the most optimal choice is always made.
-                  This algorithm considers all possible moves for the AI player and selects the most advantageous one based on certain metrics.
-                  To ensure the project&apos;s robustness and effectiveness, I employed the Test Driven Development technique using Jasmine.js."
-                url="http://devrob.github.io/TDD-Project-TTT"
-                srcUrl="https://github.com/DevRob/TDD-Project-TTT"
-                svg="ttt"
-                media="tictactoe"
-              />
-              <CardModal
-                title="Classic Arcade Game Clone"
-                description="Utilizing given visual assets and a game loop engine, I introduced numerous game entities,
-                  including player characters and adversaries, effectively reconstructing the iconic arcade game, Frogger.
-                  To increase the game&apos;s versatility, I also designed a map generator, which allows for straightforward addition,
-                  removal, and modification of game levels."
-                url="http://devrob.github.io/Udacity-WebDev-project3"
-                srcUrl="https://github.com/DevRob/Udacity-WebDev-project3"
-                svg="game"
-                media="frogger"
-              />
-              <CardModal
-                title="Asteroids Game Clone"
-                description="In this project, I created a Python-based rendition of the classic Asteroids computer game.
-                  The gameplay involves generating a spaceship and a field of asteroids, and tracking collisions between the ship and the asteroids.
-                  With each collision, an asteroid is eliminated, and the player forfeits a life. The space bar triggers the launch of new missiles,
-                  which can obliterate asteroids upon contact, a feature ensured by collision detection between the two elements.
-                  The game also includes a scoring system to track player progress."
-                url="https://py3.codeskulptor.org/#user308_ydj6LNsNpv_12.py"
-                srcUrl="https://py3.codeskulptor.org/#user308_ydj6LNsNpv_12.py"
-                svg="spaceship"
-                media="asteroid"
-              />
+              <CardList items={[...items]}/>
             </div>
           </section>
 

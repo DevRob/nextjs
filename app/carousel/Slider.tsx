@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { items } from "../../public/Items.json"
+import { items } from "../../public/CarouselData.json"
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -8,7 +8,7 @@ function Slider() {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex: any, e: any) => {
     setIndex(selectedIndex)
-  };
+  }
   return (
     <Carousel variant="dark" activeIndex={index} onSelect={handleSelect}>
       {bootstrap.map((item: any) => (
