@@ -52,7 +52,7 @@ export default function CardModal(props: Props) {
             <p className="leading-8">{description}</p>
           </div>
         </div>
-        <div className="flex justify-end p-3">
+        <div className="flex justify-end p-3 mt-auto">
           <a
             href={url}
             data-disabled={!url}
