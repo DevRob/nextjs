@@ -129,8 +129,8 @@ a[data-disabled='true'] {
 }
 
 @media only screen and (max-width: 768px) {
-  .carousel {
-    width: 100vw !important;
+  div.carousel {
+    width: 100vw;
     margin-left: -24px;
     padding-bottom: 40px;
   }
@@ -145,14 +145,15 @@ a[data-disabled='true'] {
 }
 
 @media only screen and (max-width: 567px) {
-  .css-uhb5lp {
+  div.css-uhb5lp,
+  div.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
     max-height: 100vh;
     height: 100vh;
     margin: 0;
   }
 
-  .MuiDialog-root button {
-    position: fixed !important;
+  div.MuiDialog-root button {
+    position: fixed;
     z-index: 1;
   }
 }
