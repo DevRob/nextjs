@@ -35,8 +35,6 @@ export default function FormModal() {
     handleDisplay(true)
   }
   const MyTextArea = (props: any) => {
-    // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
-    // which we can spread on <input> and alse replace ErrorMessage entirely.
     const [field, meta] = useField(props)
     return (
         <>
