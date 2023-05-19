@@ -143,8 +143,8 @@ a[data-disabled='true'] {
 @media only screen and (max-width: 567px) {
   div.css-uhb5lp,
   div.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-    max-height: 100vh;
-    height: 100vh;
+    max-height: 100dvh;
+    height: 100dvh;
     margin: 0;
   }
 
