@@ -55,6 +55,7 @@ export default function CardModal(props: Props) {
         <div className="flex justify-center md:justify-end gap-3 p-3 mt-auto">
           <a
             href={url}
+            target="_blank"
             data-disabled={!url}
             className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md'>
               example
@@ -62,6 +63,7 @@ export default function CardModal(props: Props) {
           </a>
           <a
             href={srcUrl}
+            target="_blank"
             data-disabled={!srcUrl}
             className='bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-2 rounded-md'>
               source code
