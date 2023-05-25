@@ -102,9 +102,12 @@ section {
 }
 
 a[data-disabled='true'] {
+  pointer-events: none;
+}
+
+a.Link[data-disabled='true'] {
   border-color: lightgray;
   background-color: lightgray;
-  pointer-events: none;
 }
 
 .carousel img {
@@ -156,4 +159,9 @@ a[data-disabled='true'] {
   form {
     min-width: 100vw;
   }
+}
+
+.text-teal-500 {
+  --tw-text-opacity: 1;
+  color: rgb(13 148 136 / var(--tw-text-opacity));
 }

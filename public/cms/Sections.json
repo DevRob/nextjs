@@ -1,0 +1,73 @@
+{
+  "sections": [
+    {
+      "title": "Robert Molnar",
+      "subTitle": "Developer",
+      "description": [
+        "<span class=\"text-teal-500\">Welcome to my portfolio!</span>",
+        " As a seasoned web developer with over a decade of hands-on experience, I've honed my skills across",
+        " a diverse range of projects and roles. My specialty lies in",
+        "<span class=\"text-teal-500\"> front-end development</span>",
+        ", where I consistently deliver efficient and user-friendly solutions. My professional journey reflects my versatility",
+        ", from developing intricate enterprise systems to guiding aspiring developers and contributing to design engineering projects. ",
+        "Take a moment to explore my varied experiences and the multitude of projects that have shaped my career."
+      ],
+      "icons": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Tech",
+      "description": [
+        "In the realm of web technology, my toolkit is robust and ever-evolving. I command a deep understanding of",
+        "<span class=\"text-teal-500\"> JavaScript, HTML, </span>",
+        "and<span class=\"text-teal-500\"> CSS</span>",
+        ", including LESS and SASS preprocessors. A strong foundation in",
+        "<span class=\"text-teal-500\"> Node.js</span>",
+        "and my expertise in",
+        "<span class=\"text-teal-500\"> Handlebars </span>",
+        "allow me to build semantic templates effectively. Few other technologies I worked with: ",
+        "<span class=\"text-teal-500\"> REST APIs, Web Services, Git/GitHub, Python, JQuery, C#, .NET, MySQL, knockout.js, TypeScript and React.</span>"
+      ],
+      "icons": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "description": [
+        "The Projects section of my portfolio showcases a varied collection of initiatives",
+        ", each underscoring the depth of my professional expertise. These projects demonstrate my",
+        "<span class=\"text-teal-500\"> ability to deliver creative solutions</span>",
+        ", navigate complex challenges, and consistently advance within the field of web development."
+      ],
+      "icons": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "description": [
+        "I've had the honor of collaborating with talented teams to construct these websites",
+        ", where I've made notable contributions to the",
+        "<span class=\"text-teal-500\"> front-end development</span>",
+        ", with varying degrees of involvement in each case."
+      ],
+      "icons": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import transform from '../../public/png/transform.png'
-import email from '../../public/png/email.png'
-import map from '../../public/png/Google-App.png'
-import tictactoe from '../../public/png/ttt.png'
-import frogger from '../../public/png/frogger.png'
-import asteroid from '../../public/png/asteroid.png'
+import transform from '../../public/webp/transform.webp'
+import email from '../../public/webp/email.webp'
+import map from '../../public/webp/Google-App.webp'
+import tictactoe from '../../public/webp/ttt.webp'
+import frogger from '../../public/webp/frogger.webp'
+import asteroid from '../../public/webp/asteroid.webp'
 
 type Images = 'transform' | 'email' | 'map' | 'tictactoe' | 'frogger' | 'asteroid' // all the supported Images
 

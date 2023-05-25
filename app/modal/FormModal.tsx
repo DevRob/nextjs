@@ -82,7 +82,7 @@ export default function FormModal() {
           handleDisplay(false)
          }}
        >
-        <Form className="px-4 flex flex-col gap-3">
+        <Form className="px-4 pb-4 flex flex-col gap-3">
           <label htmlFor="firstName">First Name</label>
           <Field id="firstName" className="p-2 border border-gray-300 rounded-md min-w-full focus:ring-teal-500" name="firstName" placeholder="First Name" />
 
@@ -106,7 +106,7 @@ export default function FormModal() {
             style={{minHeight: "250px"}}
           />
 
-          <button className='custom bg-teal-500 text-white border border-teal-500 hover:bg-white hover:text-teal-500 py-2 px-5 rounded-md cursor-pointer' type="submit">Submit</button>
+          <button className='custom bg-teal-500 text-slate-50 border border-teal-500 hover:bg-white hover:text-teal-500 hover:border-teal-500! py-2 px-5 rounded-md cursor-pointer' type="submit">Submit</button>
         </Form>
         </Formik>
       </Dialog>

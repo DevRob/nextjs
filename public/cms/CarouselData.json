@@ -1,0 +1,83 @@
+{
+  "items": {
+    "bootstrap": [
+      {
+        "id": 1,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/SpecialOlympics.webp",
+        "url": "https://www.specialolympics.org/"
+      },
+      {
+        "id": 2,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/Hallmark.webp",
+        "url": "https://www.hallmarkchannel.com/"
+      },
+      {
+        "id": 3,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/KPCC.webp",
+        "url": "https://www.kpcc.org/"
+      },
+      {
+        "id": 4,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/Intersystems.webp",
+        "url": "https://www.intersystems.com/"
+      },
+      {
+        "id": 5,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/CoffeeOrDie.webp",
+        "url": "https://coffeeordie.com/"
+      },
+      {
+        "id": 6,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/LAIST.webp",
+        "url": "https://laist.com/"
+      },
+      {
+        "id": 7,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/KCET.webp",
+        "url": "https://www.kcet.org/"
+      },
+      {
+        "id": 8,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/Walmart.webp",
+        "url": "https://walmart.org/"
+      },
+      {
+        "id": 9,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/Walton.webp",
+        "url": "https://www.waltonfamilyfoundation.org/"
+      },
+      {
+        "id": 10,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/AmazonScience.webp",
+        "url": "https://www.amazon.science/"
+      },
+      {
+        "id": 11,
+        "title": "",
+        "body": "",
+        "imageUrl": "./webp/AdCouncil.webp",
+        "url": "https://feeldifferentdrivedifferent.org/"
+      }
+    ]
+  }
+}
