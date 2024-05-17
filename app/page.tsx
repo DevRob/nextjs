@@ -5,7 +5,7 @@ import Image from 'next/image'
 import CardList from './lists/CardList'
 import devrob from '../public/webp/devrob.webp'
 import { useState } from 'react'
-import parse from 'html-react-parser';
+import parse from 'html-react-parser'
 
 import {
   BsFillMoonFill,
